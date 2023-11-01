@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		93AE84512AF279C400797074 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AE84502AF279C400797074 /* AppDelegate.swift */; };
 		93AE84532AF279C400797074 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AE84522AF279C400797074 /* SceneDelegate.swift */; };
-		93AE84552AF279C400797074 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AE84542AF279C400797074 /* ViewController.swift */; };
 		93AE84582AF279C400797074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93AE84562AF279C400797074 /* Main.storyboard */; };
 		93AE845A2AF279C600797074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93AE84592AF279C600797074 /* Assets.xcassets */; };
 		93AE845D2AF279C600797074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93AE845B2AF279C600797074 /* LaunchScreen.storyboard */; };
+		93AE84652AF27A1700797074 /* StoreItemListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AE84642AF27A1700797074 /* StoreItemListTableViewController.swift */; };
+		93AE84692AF27B8D00797074 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AE84682AF27B8D00797074 /* ItemCell.swift */; };
+		93AE846B2AF28A8F00797074 /* StoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AE846A2AF28A8F00797074 /* StoreItem.swift */; };
+		93AE846D2AF28C4B00797074 /* StoreItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AE846C2AF28C4B00797074 /* StoreItemController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		93AE844D2AF279C400797074 /* MyLabiTunesSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLabiTunesSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93AE84502AF279C400797074 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93AE84522AF279C400797074 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		93AE84542AF279C400797074 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		93AE84572AF279C400797074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93AE84592AF279C600797074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93AE845C2AF279C600797074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93AE845E2AF279C600797074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93AE84642AF27A1700797074 /* StoreItemListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemListTableViewController.swift; sourceTree = "<group>"; };
+		93AE84682AF27B8D00797074 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		93AE846A2AF28A8F00797074 /* StoreItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItem.swift; sourceTree = "<group>"; };
+		93AE846C2AF28C4B00797074 /* StoreItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,14 @@
 			children = (
 				93AE84502AF279C400797074 /* AppDelegate.swift */,
 				93AE84522AF279C400797074 /* SceneDelegate.swift */,
-				93AE84542AF279C400797074 /* ViewController.swift */,
-				93AE84562AF279C400797074 /* Main.storyboard */,
+				93AE846A2AF28A8F00797074 /* StoreItem.swift */,
+				93AE846C2AF28C4B00797074 /* StoreItemController.swift */,
+				93AE84642AF27A1700797074 /* StoreItemListTableViewController.swift */,
+				93AE84682AF27B8D00797074 /* ItemCell.swift */,
 				93AE84592AF279C600797074 /* Assets.xcassets */,
 				93AE845B2AF279C600797074 /* LaunchScreen.storyboard */,
 				93AE845E2AF279C600797074 /* Info.plist */,
+				93AE84562AF279C400797074 /* Main.storyboard */,
 			);
 			path = MyLabiTunesSearch;
 			sourceTree = "<group>";
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93AE84552AF279C400797074 /* ViewController.swift in Sources */,
+				93AE84692AF27B8D00797074 /* ItemCell.swift in Sources */,
+				93AE846B2AF28A8F00797074 /* StoreItem.swift in Sources */,
+				93AE846D2AF28C4B00797074 /* StoreItemController.swift in Sources */,
+				93AE84652AF27A1700797074 /* StoreItemListTableViewController.swift in Sources */,
 				93AE84512AF279C400797074 /* AppDelegate.swift in Sources */,
 				93AE84532AF279C400797074 /* SceneDelegate.swift in Sources */,
 			);
