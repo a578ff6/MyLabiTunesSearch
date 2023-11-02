@@ -7,6 +7,7 @@
 
 import UIKit
 
+@MainActor
 class StoreItemListTableViewController: UITableViewController {
 
     // MARK: - Outlets
